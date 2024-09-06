@@ -14,7 +14,7 @@ class HammerCurl:
         self.flexion_angle_down = 35  # Flexion angle for 'down' stage
 
         self.angle_threshold_up = 155  # Upper threshold for 'up' stage
-        self.angle_threshold_down = 42  # Lower threshold for 'down' stage
+        self.angle_threshold_down = 47  # Lower threshold for 'down' stage
 
     def calculate_shoulder_elbow_hip_angle(self, shoulder, elbow, hip):
         """Calculate the angle between shoulder, elbow, and hip."""
@@ -101,8 +101,6 @@ class HammerCurl:
         # Progress percentages: 1 for "up", 0 for "down"
         progress_right = 1 if self.stage_right == "up" else 0
         progress_left = 1 if self.stage_left == "up" else 0
-        print("progress_right : ", progress_right)
-        print("progress_left : ", progress_left)
 
         return self.counter_right, angle_right_counter, self.counter_left, angle_left_counter, warning_message_right, warning_message_left, progress_right, progress_left, self.stage_right, self.stage_left
 
