@@ -1,5 +1,10 @@
 # AI-Powered Fitness Trainer Pose Estimation
 
+<img src="output/images/Screenshot%202024-09-08%20030742.png" alt="Workout Demo" width="500"/>
+<img src="output/images/Screenshot%202024-09-08%20030816.png" alt="Workout Demo" width="500"/>
+<img src="output/images/Screenshot%202024-09-08%20030836.png" alt="Workout Demo" width="500"/>
+
+
 This project brings an AI-powered workout tracking system that leverages pose estimation technology to count and monitor exercises in real-time. It provides instant feedback on your form, tracks repetitions, and motivates you to push through each set. Whether you're doing bicep curls, squats, or push-ups, this system ensures that every rep is counted and your technique is refined.
 
 ## Key Features
