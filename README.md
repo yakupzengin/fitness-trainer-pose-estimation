@@ -1,3 +1,5 @@
+
+
 # 🏋️ Fitness Trainer with AI Pose Estimation
 
 An AI-powered web application that tracks your exercises using computer vision and provides real-time form feedback with scoring.
@@ -152,7 +154,7 @@ The app calculates a **Form Score (0-100)** for each exercise session:
 ### 1. Clone & Install
 
 ```bash
-git clone https://github.com/yourusername/fitness-trainer-pose-estimation.git
+git clone https://github.com/yakupzengin/fitness-trainer-pose-estimation.git
 cd fitness-trainer-pose-estimation
 
 # Create virtual environment (optional)
